@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 html * {
     font-family:'Pontano Sans','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -82,11 +82,13 @@ leftside{
     height:200px;
     width:100%;
     background-color: rgba(255, 70, 70, 0.356);
+    display:flex;
+    justify-content: center;
+    align-items:center;
 
 }
 
 container{
-    font-style: italic;
     position:relative;
     z-index: 0;
     display:flex;
@@ -113,10 +115,15 @@ footer{
     z-index:-2;
     padding-left:40px;
     height:22%;
-    background-color: rgb(255, 243, 240);
+    background-color: rgb(255, 240, 221);
     box-shadow: -5px 3px 5px rgba(0, 0, 0, 0.164);
     width:100%;
 
+}
+
+label{
+    letter-spacing: 3px;
+    font-size: 1rem;
 }
 
 myform{
@@ -126,10 +133,26 @@ myform{
 
 button {
     background-color: rgb(250, 156, 171);
-    font-weight:bold;
     font-size: 1.5rem;
-    padding: 10px; 
+    padding: 12px; 
     border-radius: 15px;
-    border: 4px solid rgba(255, 255, 255, 0.993);
+    border: 4px solid rgb(255, 240, 221);
     color:white;
+}
+
+img{
+    opacity:0.9;
+    height: 6em;
+    width: 6em;
+    filter: blur(0.5px);
+}
+
+.companytxt{
+    font-family: 'Quicksand','Pontano Sans','Trebuchet MS';
+    letter-spacing:0.3em;
+    font-size: 3rem;
+    padding-left: 10px;
+    color:white;
+
+
 }
