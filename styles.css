@@ -138,6 +138,14 @@ form{
     height:60%;
 }
 
+input:invalid{
+    border-color:red;
+}
+
+input:valid{
+    border-color: green;
+}
+
 button {
     background-color: rgb(250, 156, 171);
     font-size: 1.5rem;
@@ -147,6 +155,17 @@ button {
     color:white;
     position:relative;
     z-index: 1;
+}
+
+button:active{
+    background: rgb(250, 156, 171);
+    -webkit-box-shadow: inset 0px 0px 10px #3838386b;
+    -moz-box-shadow: inset 0px 0px 10px #3838386b;
+         box-shadow: inset 0px 0px 10px #3838386b;
+}
+
+button:hover{
+    cursor: pointer;
 }
 
 img{
