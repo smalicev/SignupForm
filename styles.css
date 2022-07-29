@@ -6,11 +6,16 @@ html * {
     color:rgba(31, 31, 31, 0.849);
 }
 
+:root{
+    --primary-colour: rgb(255, 240, 221);
+    --accent-colour: rgb(250, 156, 171);
+    --primary-dark: 
+}
 
 header{
     position:relative;
     z-index:0;
-    background-color: rgb(255, 240, 221);
+    background-color: var(--primary-colour);
     padding-left:40px;
     width:100%;
     height:33%;
@@ -48,14 +53,14 @@ input{
     width: 250px;
     height:40px;
     font-size:1.25rem;
-    background-color:rgb(250, 156, 171);
+    background-color:var(--accent-colour);
     border: 1px solid rgb(250, 231, 225);
     border-radius: 10px;
     padding: 10px;
 }
 
 a {
-    color:hotpink;
+    color:var(--accent-colour);
 }
 
 content{
@@ -115,7 +120,7 @@ footer{
     z-index: 2;
     padding-left:40px;
     height:22%;
-    background-color: rgb(255, 240, 221);
+    background-color: var(--primary-colour);
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.164), 0px -3px 5px rgba(0, 0, 0, 0.164), -5px 3px 5px rgba(0, 0, 0, 0.164);
     width:100%;
 
